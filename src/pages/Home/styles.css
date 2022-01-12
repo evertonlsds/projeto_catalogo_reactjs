@@ -90,3 +90,31 @@
     width: 700px;
   }
 }
+@media (min-width: 1200px) {
+  .home-card {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+  .home-content-container {
+    padding: 100px 20px;
+    align-items: flex-start;
+    text-align: left;
+    align-content: space-between;
+    flex-flow: wrap;
+    flex-direction: column;
+  }
+  .home-image-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .home-image-container svg {
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .home-image-container svg {
+    width: 100%;
+  }
+}
