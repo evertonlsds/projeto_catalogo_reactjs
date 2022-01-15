@@ -1,6 +1,6 @@
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -23,15 +23,28 @@ export default function Navbar() {
         <div className=" collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <Link to="/" className="active">
+              <NavLink
+                className={(navData) => (navData.isActive ? 'active' : '')}
+                to="/"
+              >
                 HOME
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/catalog">CATÁLOGO</Link>
+              <NavLink
+                className={(navData) => (navData.isActive ? 'active' : '')}
+                to="/catalog"
+              >
+                CATÁLOGO
+              </NavLink>
             </li>
             <li>
-              <Link to="/admin">ADMIN</Link>
+              <NavLink
+                className={(navData) => (navData.isActive ? 'active' : '')}
+                to="/admin"
+              >
+                ADMIN
+              </NavLink>
             </li>
           </ul>
         </div>
