@@ -1,6 +1,7 @@
 import { ReactComponent as MainImage } from 'assets/images/main-image.svg';
 import ButtonIcon from 'components/ButtonIcon';
 import Navbar from 'components/Navbar';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 export default function Home() {
@@ -17,7 +18,9 @@ export default function Home() {
                 mercado.
               </p>
             </div>
-            <ButtonIcon />
+            <Link to="/catalog">
+              <ButtonIcon />
+            </Link>
           </div>
           <div className="home-image-container">
             <MainImage />

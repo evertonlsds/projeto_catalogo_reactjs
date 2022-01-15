@@ -1,9 +1,33 @@
-.btn-icon {
-  height: 50px;
+.btn-container {
+  display: flex;
+}
+.btn-container button {
+  border-radius: 10px 0px 0px 10px;
 }
 
-.btn-icon h6 {
-  padding: 4px 0;
-  color: #fff;
-  font-weight: bold;
+.btn-icon-container {
+  width: 50px;
+  height: 50px;
+  background: #33569b;
+  border-radius: 0px 10px 10px 0px;
+}
+.btn h6 {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.btn-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .btn-icon-container {
+    width: 70px;
+    height: 70px;
+  }
+  .btn h6 {
+    font-size: 18px;
+  }
 }
