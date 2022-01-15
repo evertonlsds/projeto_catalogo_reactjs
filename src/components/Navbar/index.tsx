@@ -1,6 +1,6 @@
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -23,15 +23,15 @@ export default function Navbar() {
         <div className=" collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <a href="link" className="active">
+              <Link to="/" className="active">
                 HOME
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="link">CATÁLOGO</a>
+              <Link to="/catalog">CATÁLOGO</Link>
             </li>
             <li>
-              <a href="link">ADMIN</a>
+              <Link to="/admin">ADMIN</Link>
             </li>
           </ul>
         </div>
