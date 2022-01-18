@@ -19,7 +19,7 @@ export default function Home() {
               </p>
             </div>
             <Link to="/catalog">
-              <ButtonIcon />
+              <ButtonIcon text="Inicie agora a sua busca"/>
             </Link>
           </div>
           <div className="home-image-container">
