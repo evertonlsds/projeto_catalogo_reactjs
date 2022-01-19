@@ -12,7 +12,7 @@ const product: Product= {
   "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, modi hic! Omnis maiores, sed ab consequatur enim et officiis inventore!",
   "price":2190.0,
   "date": "2020-07-14T10:00:00Z",
-  "imgUrl":"https://s2.glbimg.com/_Lgauxd5LWZmrqowNJAgr_2DdE0=/0x0:892x684/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/q/G/foCFi0RYO4LWucFnb9og/br-hd-j4300-un32j4300agxzd-010-r-perspective-blue.jpeg",
+  "imgUrl":"https://images-shoptime.b2w.io/produtos/01/00/img/1803603/2/1803603260_1GG.jpg",
   "categories":[
     {
       "id": 1,
