@@ -20,7 +20,7 @@ const product: Product= {
     },
     {
       "id": 3,
-      "name": "Computadoes"
+      "name": "Computadores"
     }
   ]
 }

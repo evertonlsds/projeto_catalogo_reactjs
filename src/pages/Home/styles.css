@@ -90,7 +90,7 @@
   .home-card {
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .home-content-container {
     padding: 100px 20px;
