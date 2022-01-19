@@ -93,4 +93,20 @@
     display: block;
     
   }
+  .img-container img{
+    width: 280px;
+    height: auto;
+  }
+  .description-container{
+    min-height: 302px;
+  }
+}
+@media (min-width: 1400px){
+  .img-container img{
+    width: 450px;
+    height: auto;
+  }
+  .description-container{
+    min-height: 453px;
+  }
 }

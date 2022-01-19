@@ -3,6 +3,8 @@ import Navbar from 'components/Navbar';
 import ProductPrice from 'components/ProductPrice';
 import './styles.css';
 
+
+
 export default function ProductDetails() {
   return (
     <>
