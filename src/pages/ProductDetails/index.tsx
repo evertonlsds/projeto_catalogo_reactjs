@@ -1,9 +1,8 @@
 import { ReactComponent as ArrowIcon } from 'assets/images/arrow.svg';
 import Navbar from 'components/Navbar';
 import ProductPrice from 'components/ProductPrice';
+import { Link } from 'react-router-dom';
 import './styles.css';
-
-
 
 export default function ProductDetails() {
   return (
@@ -11,10 +10,12 @@ export default function ProductDetails() {
       <Navbar />
       <div className="product-details-container">
         <div className="base-card product-details-card">
-          <div className="goback-container">
-            <ArrowIcon />
-            <h2>Voltar</h2>
-          </div>
+          <Link to="/catalog">
+            <div className="goback-container">
+              <ArrowIcon />
+              <h2>Voltar</h2>
+            </div>
+          </Link>
           <div className="row">
             <div className="col-xl-6">
               <div className="img-container">
@@ -32,6 +33,12 @@ export default function ProductDetails() {
               <div className="description-container">
                 <h2>Descrição do Produto</h2>
                 <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Earum, ut!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Earum, ut!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Earum, ut!
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Earum, ut!
                 </p>
