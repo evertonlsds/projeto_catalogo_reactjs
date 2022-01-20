@@ -1,5 +1,5 @@
 import { ReactComponent as ArrowIcon } from 'assets/images/arrow.svg';
-import Navbar from 'components/Navbar';
+import NavbarP from 'components/NavbarP';
 import ProductPrice from 'components/ProductPrice';
 import { Link } from 'react-router-dom';
 import './styles.css';
@@ -7,7 +7,7 @@ import './styles.css';
 export default function ProductDetails() {
   return (
     <>
-      <Navbar />
+      <NavbarP />
       <div className="product-details-container">
         <div className="base-card product-details-card">
           <Link to="/catalog">

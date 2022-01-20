@@ -1,4 +1,4 @@
-import Navbar from 'components/Navbar';
+import NavbarP from 'components/NavbarP';
 import Pagination from 'components/Pagination';
 import ProductCard from 'components/ProductCard';
 import { Link } from 'react-router-dom';
@@ -29,7 +29,7 @@ export default function Catalog() {
 
   return (
     <>
-      <Navbar />
+      <NavbarP />
       <div className="container my-4 catalog-container">
         <div className="row catalog-title-container">
           <h1>Catálogo de produtos</h1>

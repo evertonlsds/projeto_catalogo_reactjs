@@ -2,7 +2,7 @@ import './styles.css';
 import 'bootstrap/js/src/collapse.js';
 import { Link, NavLink } from 'react-router-dom';
 
-export default function Navbar() {
+export default function NavbarP() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid">
